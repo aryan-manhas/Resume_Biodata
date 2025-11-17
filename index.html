@@ -3,37 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bio-data | Aryan Manhas</title>
+  <title>Biodata | Aryan Manhas</title>
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
-    <h1>Aryan Manhas</h1>
+
+  <header class="nav">
+    <h1 class="logo">Aryan Manhas</h1>
     <nav>
       <a href="index.html" class="active">Bio-data</a>
       <a href="resume.html">Resume</a>
     </nav>
   </header>
 
-  <section class="biodata">
-    <h2>Bio-data</h2>
-    <table>
-      <tr><th>Full Name</th><td>Aryan Manhas</td></tr>
-      <tr><th>Date of Birth</th><td>14th December 2005</td></tr>
-      <tr><th>Gender</th><td>Male</td></tr>
-      <tr><th>Nationality</th><td>Indian</td></tr>
-      <tr><th>Languages Known</th><td>English, Hindi</td></tr>
-      <tr><th>Hobbies</th><td>Sports, Coding, Games</td></tr>
-      <tr><th>Hometown</th><td>Mamun, Pathankot, Punjab</td></tr>
-      <tr><th>Contact</th><td>
-        Email: <a href="mailto:aryanmanhas06@gmail.com">aryanmanhas06@gmail.com</a><br>
-        Phone: <a href="tel:+98237402877">+91 82374 02877</a><br>
-      </td></tr>
-    </table>
+  <section class="card fade">
+    <h2><i data-feather="user"></i> Bio-data</h2>
+
+    <div class="info-grid">
+
+      <div><strong>Full Name</strong><span>Aryan Manhas</span></div>
+      <div><strong>Date of Birth</strong><span>14 December 2005</span></div>
+      <div><strong>Gender</strong><span>Male</span></div>
+      <div><strong>Nationality</strong><span>Indian</span></div>
+      <div><strong>Languages</strong><span>English, Hindi</span></div>
+      <div><strong>Hobbies</strong><span>Sports, Coding, Gaming</span></div>
+      <div><strong>Hometown</strong><span>Mamun, Pathankot, Punjab</span></div>
+
+      <div>
+        <strong>Contact</strong>
+        <span class="contact-links">
+          <i data-feather="mail"></i>
+          <a href="mailto:aryanmanhas06@gmail.com">aryanmanhas06@gmail.com</a><br>
+
+          <i data-feather="phone"></i>
+          <a href="tel:+918237402877">+91 82374 02877</a>
+        </span>
+      </div>
+
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 Aryan Manhas | All rights reserved.</p>
+    © 2025 Aryan Manhas • All Rights Reserved
   </footer>
+
+<script>feather.replace()</script>
 </body>
 </html>
