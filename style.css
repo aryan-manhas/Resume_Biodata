@@ -1,0 +1,75 @@
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: white;
+  margin: 0;
+  color: #222;
+}
+
+header {
+  background: lightgoldenrodyellow;
+  color: black;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  color: red;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: blue;
+}
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+h2 {
+  border-left: 4px solid lightcoral;
+  padding-left: 8px;
+  color: lightcoral;
+}
+
+ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+a {
+  color: #004aad;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: lightgoldenrodyellow;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
